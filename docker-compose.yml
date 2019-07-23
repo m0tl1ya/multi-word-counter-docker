@@ -5,6 +5,6 @@ services:
     environment:
       - NODE_ENV=production
     volumes:
-      - ./multi-word-counter-docker:/usr/src/app
+      - ./:/usr/src/app
     ports:
       - "3000:3000"

@@ -32,13 +32,16 @@ const styles = theme => ({
   root: {
     width: '100%',
     display: 'flex',
-    margin: '0.5em',
+    margin: '1em',
     alignItems: 'center',
   },
   addButton: {
+    color: 'white',
     margin: '0.5em',
+    background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)'
   },
   refreshButton: {
+    background: 'linear-gradient(45deg, #2196f3 30%, #21cbf3 90%)',
     margin: '0.5em',
     color: 'white',
     backgroundColor: '#2196F3',

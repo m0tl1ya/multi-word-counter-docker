@@ -15,8 +15,8 @@ import Typography from '@material-ui/core/Typography';
 const styles = theme => ({
   root: {
     width: '100%',
-    // backgroundColor: '#3e43b1',
-    background: 'linear-gradient(45deg, #3e43b1 30%, #7d81d2 90%)',
+    background: 'linear-gradient(45deg, #2196f3 30%, #21cbf3 90%)',
+    boxShadow: '0 3px 5px 2px rgba(33, 203, 243, .30)',
   },
   flex: {
     flex: 1,
@@ -41,7 +41,7 @@ class TitleBar extends Component {
         position="static"
         className={classes.root}
       >
-        <Typography variant="title" color="inherit" className={classes.flex}>
+        <Typography variant="h5" color="inherit" className={classes.flex}>
             Multi Word Counter
         </Typography>
       </AppBar>

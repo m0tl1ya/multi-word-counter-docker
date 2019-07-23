@@ -1,3 +1,5 @@
+`multi-word-counter-docker tmoriya$ docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 -it --rm node:12.2.0-alpine /bin/ash`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

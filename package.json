@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@@material-ui/core/core": "^4.0.1",
-    "@@material-ui/core/icons": "^4.0.1",
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^5.0.6",
